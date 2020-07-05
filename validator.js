@@ -4,7 +4,6 @@ function Validator(option) {
   //Hàm thực hiện validate
   function validate(inputElement, rule) {
     var error;
-    console.log(rules);
     var errorElement = inputElement.parentElement.querySelector(option.errorMessage);
     //lấy ra các rule của selector
     var rules = selectorRules[rule.selector];
