@@ -27,6 +27,8 @@ html {
 }
 .form .heading {
   font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: bold;
 }
 .form .desc {
   text-align: center;
@@ -99,9 +101,5 @@ html {
 
 .form-submit:hover {
   background-color: #1ac7b6;
-}
-
-.spacer {
-  margin-top: 36px;
 }
 
